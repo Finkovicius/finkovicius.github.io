@@ -1,0 +1,25 @@
+/* css styles */
+
+/* ===== Custom link colors ===== */
+a {
+  color: #4da3ff;              /* normal link color (blueish) */
+  text-decoration: none;       /* remove underline */
+}
+
+a:hover,
+a:focus {
+  color: #82c7ff;              /* lighter on hover */
+  text-decoration: underline;  /* subtle underline on hover */
+}
+
+
+/* ===== Custom link styles for publication titles ===== */
+a.title-link {
+  color: inherit;              /* same color as normal text */
+  text-decoration: underline;  /* keep underline for clarity */
+}
+
+a.title-link:hover {
+  color: inherit;              /* no color change on hover */
+  text-decoration: underline;  /* underline stays */
+}
