@@ -1,5 +1,68 @@
 /* css styles */
 
+/* Import Source Sans 3 from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+/* Apply Source Sans 3 globally and increase base size */
+body {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 1.1rem;   /* default ~17.6px, was 1rem = 16px */
+  line-height: 1.6;    /* comfortable spacing for readability */
+}
+
+/* Slightly larger headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2rem; }   /* ~32px */
+h2 { font-size: 1.6rem; } /* ~25.6px */
+h3 { font-size: 1.3rem; } /* ~20.8px */
+
+
+/* --- Dark theme background adjustments (VS Code style) --- */
+body.quarto-dark {
+  background-color: #2d2d2d !important; /* main background */
+  color: #e6e6e6 !important;            /* soft off-white text */
+}
+
+/* Navbar (top header) */
+body.quarto-dark .navbar {
+  background-color: #2d2d2d !important; /* VS Code gray */
+  border-bottom: 1px solid #3a3a3a !important;
+}
+
+/* Footer */
+body.quarto-dark .footer,
+body.quarto-dark .nav-footer {
+  background-color: #2d2d2d !important; /* VS Code gray */
+  border-top: 1px solid #3a3a3a !important;
+}
+
+
+
+/* --- Light theme background tweak --- */
+body.quarto-light {
+  background-color: #f2f0ef !important; /* subtle off-white background */
+  color: #222222 !important;            /* keep text dark for contrast */
+}
+
+
+/* Navbar (top header) background */
+body.quarto-light .navbar {
+  background-color: #f2f0ef !important; /* slightly off-white */
+  border-bottom: 1px solid #e0e0e0 !important; /* subtle divider line */
+}
+
+/* Footer background */
+body.quarto-light .footer,
+body.quarto-light .nav-footer {
+  background-color: #f2f0ef !important; /* match navbar tone */
+  border-top: 1px solid #e0e0e0  !important;
+}
+
 /* ===== Custom link colors ===== */
 a {
   color: #4da3ff;              /* normal link color (blueish) */
@@ -22,4 +85,46 @@ a.title-link {
 a.title-link:hover {
   color: inherit;              /* no color change on hover */
   text-decoration: underline;  /* underline stays */
+}
+
+/* --- NAVBAR COLORS: DARK MODE --- */
+body.quarto-dark .navbar .nav-link.active {
+  color: #3399ff !important; /* blue for active tab */
+}
+
+body.quarto-dark .navbar .nav-link {
+  color: #e0e0e0 !important; /* neutral inactive tabs */
+}
+
+body.quarto-dark .navbar .navbar-brand {
+  color: #e0e0e0 !important;
+  text-decoration: none !important;
+}
+
+body.quarto-dark .navbar .navbar-brand:hover,
+body.quarto-dark .navbar .navbar-brand:focus {
+  color: #3399ff !important;
+}
+
+/* --- NAVBAR COLORS: LIGHT MODE --- */
+body.quarto-light .navbar .nav-link.active {
+  color: #0066cc !important; /* blue for active tab */
+}
+
+body.quarto-light .navbar .nav-link {
+  color: #333333 !important; /* dark gray for inactive tabs */
+}
+
+body.quarto-light .navbar .nav-link:hover {
+  color: #0066cc !important; /* blue on hover */
+}
+
+body.quarto-light .navbar .navbar-brand {
+  color: #000000 !important; /* black normally */
+  text-decoration: none !important;
+}
+
+body.quarto-light .navbar .navbar-brand:hover,
+body.quarto-light .navbar .navbar-brand:focus {
+  color: #0066cc !important; /* blue on hover */
 }
