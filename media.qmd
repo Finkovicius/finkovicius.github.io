@@ -1,0 +1,23 @@
+---
+title: "Media"
+pagetitle: "Lukas Fink | Media"
+format:
+  html:
+    page-layout: full
+---
+
+<style>
+#title-block-header {
+  margin-top: 2rem;
+}
+
+#interviews {
+  margin-top: 3rem;
+}
+</style>
+
+## Interviews {#interviews}
+
+**[Wer top publizieren will, kommt an Open Science nicht vorbei](https://open-science-future.zbw.eu/wer-top-publizieren-will-kommt-an-open-science-nicht-vorbei/){target="_blank" .title-link}**  
+*ZBW- Open Science Magazin,* September, 2025.  
+**[English version](https://open-science-future.zbw.eu/en/publish-at-highest-level-no-getting-around-open-science/){target="_blank" .title-link}**

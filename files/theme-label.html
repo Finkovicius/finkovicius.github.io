@@ -1,0 +1,14 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector(".quarto-color-scheme-toggle");
+  if (!toggle) return;
+
+  if (document.querySelector(".theme-label")) return;
+
+  const label = document.createElement("span");
+  label.className = "theme-label";
+  label.textContent = "Theme";
+
+  toggle.parentNode.insertBefore(label, toggle);
+});
+</script>

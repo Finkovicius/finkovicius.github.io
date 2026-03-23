@@ -1,0 +1,32 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const home = document.querySelector(".quarto-about-solana");
+  if (!home) return;
+
+  /* Avoid duplicate insertion */
+  if (home.querySelector(".homepage-socials")) return;
+
+  /* Create the social icons row below the full text + image block */
+  const socials = document.createElement("div");
+  socials.className = "homepage-socials";
+  socials.style.textAlign = "center";
+  socials.style.marginTop = "2rem";
+
+  socials.innerHTML = `
+    <a href="https://bsky.app/profile/lukasfink.bsky.social" target="_blank" title="Bluesky" style="margin: 0 10px;">
+      <img src="files/Bluesky_Logo.svg" alt="Bluesky" style="height:1.6rem; width:1.6rem; transform: translateY(-2px);">
+    </a>
+    <a href="https://github.com/finkovicius" target="_blank" title="GitHub" style="margin: 0 10px;">
+      <i class="bi bi-github" style="font-size: 1.8rem;"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=iTQWAPcAAAAJ&hl=de" target="_blank" title="Google Scholar" style="margin: 0 10px;">
+      <i class="bi bi-mortarboard" style="font-size: 1.8rem;"></i>
+    </a>
+  `;
+
+  const aboutEntity = home.querySelector(".about-entity");
+  if (aboutEntity) {
+    aboutEntity.insertAdjacentElement("afterend", socials);
+  }
+});
+</script>

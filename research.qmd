@@ -1,0 +1,28 @@
+---
+pagetitle: "Lukas Fink | Research"
+title-block: false
+format:
+  html:
+    page-layout: full
+---
+
+::: {.column-page}
+# Research
+
+## Peer-Reviewed Publications
+
+**[Replication Code Availability Over Time and Across Fields: Evidence from the German Socio-Economic Panel](https://doi.org/10.1111/ecin.13267){.title-link}**  
+*Economic Inquiry*, 2025, 63(2), 357–386 (with Jan Marcus).  
+[Open Access Publication](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecin.13267) · [Replication Package](https://doi.org/10.3886/E209316V2)
+
+**[Free public transport: acceptance among the population and possible effects on mobility behavior](https://doi.org/10.1007/s41025-020-00207-y){.title-link}** *(article in German)*  
+*List Forum für Wirtschafts- und Finanzpolitik*, 2021, 46(3), 299–325 (with Mark A. Andor, Manuel Frondel, Andreas Gerster, and Marco Horvath).  
+[Open Access Publication](https://link.springer.com/content/pdf/10.1007/s41025-020-00207-y.pdf)
+
+
+## Working Papers
+
+Brodeur, A., et al. (2025). [Comparing human-only, AI-assisted, and AI-led teams on assessing research reproducibility in quantitative social science](https://www.econstor.eu/bitstream/10419/308508/1/I4R-DP195.pdf){.title-link}.  
+*The Institute for Replication (I4R) Discussion Paper Series*, No. 195.
+
+:::

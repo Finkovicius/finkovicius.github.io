@@ -1,0 +1,23 @@
+---
+title: "Lukas Fink"
+title-block: false
+pagetitle: "Lukas Fink | Home"
+format:
+  html:
+    page-layout: full
+    include-in-header: files/homepage-socials.html
+    about:
+      template: solana
+      image: files/P1090110_1to1.JPG
+      image-width: 20rem
+---
+
+I am a PhD student in Economics at Freie Universität Berlin since 2023.
+
+My research focuses on the Economics of Science, Public Economics, and issues of reproducibility and replicability. Currently, my research focuses on the state and impact of research openness.
+
+---
+
+**Contact**  
+l.fink[at]fu-berlin.de
+ 
