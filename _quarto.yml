@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - files/*
+
 website:
   title: ""
   favicon: files/favicon-32x32.png
@@ -31,6 +34,7 @@ website:
 
 format:
   html:
+    anchor-sections: false
     include-after-body: open-links.js
     theme:
       light: cosmo
