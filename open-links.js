@@ -1,13 +1,9 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll('a[href]').forEach(link => {
-    const href = link.getAttribute('href');
+    const url = new URL(link.href, window.location.origin);
 
-    if (!href) return;
-
-    const isExternal = href.startsWith('http');
-
-    if (isExternal) {
+    if (url.hostname !== window.location.hostname) {
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
     }
