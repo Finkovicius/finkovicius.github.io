@@ -8,7 +8,7 @@ format:
     include-in-header: files/homepage-socials.html
     about:
       template: solana
-      image: files/P1090110_1to1.JPG
+      image: files/LukasFinkPicture.JPG
       image-width: 20rem
 ---
 
